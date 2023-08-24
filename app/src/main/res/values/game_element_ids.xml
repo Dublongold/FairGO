@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="game_element_1" type="id"/>
+    <item name="game_element_2" type="id"/>
+    <item name="game_element_3" type="id"/>
+    <item name="game_element_4" type="id"/>
+
+    <item name="game_element_5" type="id"/>
+    <item name="game_element_6" type="id"/>
+    <item name="game_element_7" type="id"/>
+    <item name="game_element_8" type="id"/>
+
+    <item name="game_element_9" type="id"/>
+    <item name="game_element_10" type="id"/>
+    <item name="game_element_11" type="id"/>
+    <item name="game_element_12" type="id"/>
+
+    <item name="game_element_13" type="id"/>
+    <item name="game_element_14" type="id"/>
+    <item name="game_element_15" type="id"/>
+    <item name="game_element_16" type="id"/>
+
+    <item name="game_element_17" type="id"/>
+    <item name="game_element_18" type="id"/>
+    <item name="game_element_19" type="id"/>
+    <item name="game_element_20" type="id"/>
+</resources>

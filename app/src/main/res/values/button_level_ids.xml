@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_level_1" type="id"/>
+    <item name="button_level_2" type="id"/>
+    <item name="button_level_3" type="id"/>
+    <item name="button_level_4" type="id"/>
+
+    <item name="button_level_5" type="id"/>
+    <item name="button_level_6" type="id"/>
+    <item name="button_level_7" type="id"/>
+    <item name="button_level_8" type="id"/>
+
+    <item name="button_level_9" type="id"/>
+    <item name="button_level_10" type="id"/>
+    <item name="button_level_11" type="id"/>
+    <item name="button_level_12" type="id"/>
+
+    <item name="button_level_13" type="id"/>
+    <item name="button_level_14" type="id"/>
+    <item name="button_level_15" type="id"/>
+    <item name="button_level_16" type="id"/>
+
+    <item name="button_level_17" type="id"/>
+    <item name="button_level_18" type="id"/>
+    <item name="button_level_19" type="id"/>
+    <item name="button_level_20" type="id"/>
+
+    <item name="button_level_21" type="id"/>
+    <item name="button_level_22" type="id"/>
+    <item name="button_level_23" type="id"/>
+    <item name="button_level_24" type="id"/>
+</resources>
