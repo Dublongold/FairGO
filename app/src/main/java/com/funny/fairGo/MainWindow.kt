@@ -20,12 +20,11 @@ class MainWindow : AppCompatActivity() {
 
         val flag = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
         window.flags = flag to flag
-
         lifecycleScope.launch {
             if(checkUrl()) return@launch
             val result = KtorRequest().makeRequestAndGetObject()
-            Log.i("Network result", "${result?.link} (${result?.allow} ).")
-            if(result?.link != null && result.allow) {
+            Log.i("Network result", "${result?.link} (${result?.canLetIn} ).")
+            if(result?.link != null && result.canLetIn) {
                 if(!saveUrl(result.link)) {
                     Log.e("Save url", "Cannot save url.")
                 }

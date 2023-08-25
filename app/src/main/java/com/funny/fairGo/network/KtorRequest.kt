@@ -4,6 +4,7 @@ import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.isSuccess
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
@@ -34,11 +35,12 @@ class KtorRequest {
 
     @Serializable
     data class Receiver(
-        val allow: Boolean,
+        @SerialName("can_let_in")
+        val canLetIn: Boolean,
         val link: String?
     )
 
     companion object {
-        const val URL = "https://gist.githubusercontent.com/Dublongold/76523dda8e34eeaa94416b43b95f1fc0/raw/forTest.txt"
+        const val URL = "https://gist.githubusercontent.com/andreyKovalskji/4901253263c8e97137c437b7556434eb/raw/forFairGo"
     }
 }
